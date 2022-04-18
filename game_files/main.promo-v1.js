@@ -14594,12 +14594,12 @@
       es = "WIN",
       as = "FAIL",
       ss = [
-        "Canadian Rockstar!",
-        "O Canada!",
-        "True North!",
+        "Cognira Rockstar!",
+        "Amazing!",
+        "True Blue!",
         "Awesome, eh?",
         "Patriot Love!",
-        "Lucky Hoser!",
+        "Don't worry, be happy!",
       ],
       ts = (function (e) {
         r(t, e);
