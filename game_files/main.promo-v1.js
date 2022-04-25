@@ -14246,10 +14246,10 @@
       as = "FAIL",
       ss = [
         "Cognira Rockstar!",
-        "Amazing!",
+        "Wow, Amazing!",
         "True Blue!",
-        "Awesome, eh?",
-        "Patriot Love!",
+        "Awesome!",
+        "Respectable!",
         "Don't worry, be happy!",
       ],
       ts = (function (e) {
