@@ -15185,7 +15185,7 @@
 
                 if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL")) {
                   var funFact = funFacts[e.gameApp.dayOffset % funFacts.length]; /* dayOffset-236 */
-                  funFact = "" + e.gameApp.dayOffset + ":" + e.gameApp.solution + " " + funFact
+                  /* funFact = "" + e.gameApp.dayOffset + ":" + e.gameApp.solution + " " + funFact */
                   if (funFact != "") {
                     this.shadowRoot.appendChild(FFs.content.cloneNode(!0));
 
