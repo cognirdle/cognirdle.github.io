@@ -1,5 +1,5 @@
-(this.canuckle = this.canuckle || {}),
-  (this.canuckle.bundle = (function (e) {
+(this.cognirdle = this.cognirdle || {}),
+  (this.cognirdle.bundle = (function (e) {
     "use strict";
     function a(e) {
       return (a =
@@ -1247,11 +1247,11 @@
                 a = this;
               this.shadowRoot.appendChild(Sa.content.cloneNode(!0)),
                 (this.shadowRoot.querySelector("#hash").textContent =
-                  null === (e = window.canuckle) || void 0 === e
+                  null === (e = window.cognirdle) || void 0 === e
                     ? void 0
                     : e.hash),
                 (this.shadowRoot.querySelector("#puzzle-number").textContent =
-                  "#".concat(this.gameApp.dayOffset - 235)),
+                  "#".concat(this.gameApp.dayOffset)), /* -235 */
                 this.shadowRoot.addEventListener(
                   "game-switch-change",
                   function (e) {
@@ -1353,390 +1353,10 @@
       Ca("js", new Date());
     Ca("config", "G-51PE0HTHXT", {
       app_version:
-        null === (Ea = window.canuckle) || void 0 === Ea ? void 0 : Ea.hash,
+        null === (Ea = window.cognirdle) || void 0 === Ea ? void 0 : Ea.hash,
       debug_mode: !1,
     });
-    var La = [
-        "cigar",
-        "rebut",
-        "sissy",
-        "humph",
-        "awake",
-        "blush",
-        "focal",
-        "evade",
-        "naval",
-        "serve",
-        "heath",
-        "dwarf",
-        "model",
-        "karma",
-        "stink",
-        "grade",
-        "quiet",
-        "bench",
-        "abate",
-        "feign",
-        "major",
-        "death",
-        "fresh",
-        "crust",
-        "stool",
-        "colon",
-        "abase",
-        "marry",
-        "react",
-        "batty",
-        "pride",
-        "floss",
-        "helix",
-        "croak",
-        "staff",
-        "paper",
-        "unfed",
-        "whelp",
-        "trawl",
-        "outdo",
-        "adobe",
-        "crazy",
-        "sower",
-        "repay",
-        "digit",
-        "crate",
-        "cluck",
-        "spike",
-        "mimic",
-        "pound",
-        "maxim",
-        "linen",
-        "unmet",
-        "flesh",
-        "booby",
-        "forth",
-        "first",
-        "stand",
-        "belly",
-        "ivory",
-        "seedy",
-        "print",
-        "yearn",
-        "drain",
-        "bribe",
-        "stout",
-        "panel",
-        "crass",
-        "flume",
-        "offal",
-        "agree",
-        "error",
-        "swirl",
-        "argue",
-        "bleed",
-        "delta",
-        "flick",
-        "totem",
-        "wooer",
-        "front",
-        "shrub",
-        "parry",
-        "biome",
-        "lapel",
-        "start",
-        "greet",
-        "goner",
-        "golem",
-        "lusty",
-        "loopy",
-        "round",
-        "audit",
-        "lying",
-        "gamma",
-        "labor",
-        "islet",
-        "civic",
-        "forge",
-        "corny",
-        "moult",
-        "basic",
-        "salad",
-        "agate",
-        "spicy",
-        "spray",
-        "essay",
-        "fjord",
-        "spend",
-        "kebab",
-        "guild",
-        "aback",
-        "motor",
-        "alone",
-        "hatch",
-        "hyper",
-        "thumb",
-        "dowry",
-        "ought",
-        "belch",
-        "dutch",
-        "pilot",
-        "tweed",
-        "comet",
-        "jaunt",
-        "enema",
-        "steed",
-        "abyss",
-        "growl",
-        "fling",
-        "dozen",
-        "boozy",
-        "erode",
-        "world",
-        "gouge",
-        "click",
-        "briar",
-        "great",
-        "altar",
-        "pulpy",
-        "blurt",
-        "coast",
-        "duchy",
-        "groin",
-        "fixer",
-        "group",
-        "rogue",
-        "badly",
-        "smart",
-        "pithy",
-        "gaudy",
-        "chill",
-        "heron",
-        "vodka",
-        "finer",
-        "surer",
-        "radio",
-        "rouge",
-        "perch",
-        "retch",
-        "wrote",
-        "clock",
-        "tilde",
-        "store",
-        "prove",
-        "bring",
-        "solve",
-        "cheat",
-        "grime",
-        "exult",
-        "usher",
-        "epoch",
-        "triad",
-        "break",
-        "rhino",
-        "viral",
-        "conic",
-        "masse",
-        "sonic",
-        "vital",
-        "trace",
-        "using",
-        "peach",
-        "champ",
-        "baton",
-        "brake",
-        "pluck",
-        "craze",
-        "gripe",
-        "weary",
-        "picky",
-        "acute",
-        "ferry",
-        "aside",
-        "tapir",
-        "troll",
-        "unify",
-        "rebus",
-        "boost",
-        "truss",
-        "siege",
-        "tiger",
-        "banal",
-        "slump",
-        "crank",
-        "gorge",
-        "query",
-        "drink",
-        "favor",
-        "abbey",
-        "tangy",
-        "panic",
-        "solar",
-        "shire",
-        "proxy",
-        "point",
-        "robot",
-        "prick",
-        "wince",
-        "crimp",
-        "knoll",
-        "sugar",
-        "whack",
-        "mount",
-        "perky",
-        "could",
-        "wrung",
-        "light",
-        "those",
-        "moist",
-        "shard",
-        "pleat",
-        "aloft",
-        "skill",
-        "elder",
-        "frame",
-        "terry", /* Game 0 */
-        "basic", /* canoe 1 (FEB 10, 2022 - START OF CANUCKLE) */
-        "maple", /* maple 2 (FEB 11) */
-        "inuit", /* 3 (FEB 12) */
-        "plaid", /* 4 (FEB 13) */
-        "igloo", /* igloo 5 (FEB 14) */
-        "hoser", /* 6 (FEB 15) */
-        "syrup", /* 7 (FEB 16) */
-        "bacon", /* 8 (FEB 17) */
-        "sorry", /* 9 (FEB 18) */
-        "whale", /* 10 (FEB 19) */
-        "north", /* 11 (FEB 20) */
-        "aboot", /* 12 (FEB 21) */
-        "banff", /* 13 (FEB 22) */
-        "falls", /* 14 (FEB 23) */
-        "totem", /* 15 (FEB 24) */
-        "queen", /* 16 (FEB 25) */
-        "loons", /* 17 (FEB 26) */
-        "metis", /* 18 (FEB 27) */
-        "toque", /* 19 (FEB 28) */
-        "canal", /* 20 (MAR 1) */
-        "crude", /* 21 (MAR 2) */
-        "goose", /* 22 (MAR 3) */
-        "lakes", /* 23 (MAR 4) */
-        "crown", /* 24 (MAR 5) */
-        "spuds", /* 25 (MAR 6) */
-        "roots", /* 26 (MAR 7) */
-        "snowy", /* 27 (MAR 8) */
-        "yukon", /* 28 (MAR 9) */
-        "polar", /* 29 (MAR 10) */
-        "bison", /* 30 (MAR 11) */
-        "tower", /* 31 (MAR 12) */
-        "bears", /* 32 (MAR 13) */
-        "leafs", /* 33 (MAR 14) */
-        "wheat", /* 34 (MAR 15) */
-        "parks", /* 35 (MAR 16) */
-        "kayak", /* 36 (MAR 17) */
-        "moose", /* 37 (MAR 18) */
-        "pride", /* 38 (MAR 19) */
-        "rocky", /* 39 (MAR 20) */
-        "scoff", /* 40 (MAR 21) */
-        "cabin", /* 41 (MAR 22) */
-        "beers", /* 42 (MAR 23) */
-        "parka", /* 43 (MAR 24) */
-        "rinks", /* 44 (MAR 25) */
-        "fries", /* 45 (MAR 26) */
-        "coast", /* 46 (MAR 27) */
-        "order", /* 47 (MAR 28) used to be EAGLE*/
-        "phone", /* 48 (MAR 29) */
-        "birch", /* 49 (MAR 30) */
-        "ports", /* 50 (MAR 31) used to be PENNY*/
-        "dairy", /* 51 (APR 1) */
-        "skate", /* 52 (APR 2) */
-        "farms", /* 53 (APR 3) */
-        "river", /* 54 (APR 4) */
-        "sport", /* 55 (APR 5) */
-        "globe", /* 56 (APR 6) used to be GEESE*/
-        "curds", /* 57 (APR 7) */
-        "foxes", /* 58 (APR 8) */
-        "crops", /* 59 (APR 9) used to be SPIEL*/
-        "camps", /* 60 (APR 10) */
-        "rodeo", /* 61 (APR 11) */
-        "trade", /* 62 (APR 12) */
-        "peace", /* 63 (APR 13) */
-        "mines", /* 64 (APR 14) */
-        "shore", /* 65 (APR 15) */
-        "cedar", /* 66 (APR 16) */
-        "large", /* 67 (APR 17) */
-        "brier", /* 68 (APR 18) */
-        "tides", /* 69 (APR 19) */
-        "klick", /* 70 (APR 20) */
-        "denim", /* 71 (APR 21) */
-        "ships", /* 72 (APR 22) */
-        "poppy", /* 73 (APR 23) */
-        "court", /* 74 (APR 24) */
-        "lodge", /* 75 (APR 25) */
-        "ocean", /* 76 (APR 26) */
-        "rugby", /* 77 (APR 27) */
-        "metre", /* 78 (APR 28) */
-        "elder", /* 79 (APR 29) */
-        "space", /* 80 (APR 30) */
-        "horse", /* 81 (MAY 1) */
-        "foggy", /* 82 (MAY 2) */
-        "taxes", /* 83 (MAY 3) */
-        "train", /* 84 (MAY 4) */
-        "music", /* 85 (MAY 5) */
-        "mitts", /* 86 (MAY 6) */
-        "grain", /* 87 (MAY 7) */
-        "rouge", /* 88 (MAY 8) */
-        "tulip", /* 89 (MAY 9) */
-        "wines", /* 90 (MAY 10) */
-        "serge", /* 91 (MAY 11) */
-        "rural", /* 92 (MAY 12) */
-        "troop", /* 93 (MAY 13) */
-        "junos", /* 94 (MAY 14) used to be HONEY*/
-        "track", /* 95 (MAY 15) */
-        "sunny", /* 96 (MAY 16) */
-        "zones", /* 97 (MAY 17) */
-        "beach", /* 98 (MAY 18) */
-        "skier", /* 99 (MAY 19) */
-        "bases", /* 100 (MAY 20) */
-        "smile", /* 101 (MAY 21) */
-        "hydro", /* 102 (MAY 22) */
-        "trail", /* 103 (MAY 23) */
-        "sands", /* 104 (MAY 24) */
-        "water", /* 105 (MAY 25) */
-        "boots", /* 106 (MAY 26) */
-        "tarts", /* 107 (MAY 27) */
-        "docks", /* 108 (MAY 28) */
-        "privy", /* 109 (MAY 29) */
-        "otter", /* 110 (MAY 30) */
-        "field", /* 111 (MAY 31) */
-        "games", /* 112 (JUN 1) */
-        "sleds", /* 113 (JUN 2) */
-        "trees", /* 114 (JUN 3) */
-        "union", /* 115 (JUN 4) */
-        "prime", /* 116 (JUN 5) */
-        "chips", /* 117 (JUN 6) */
-        "perch", /* 118 (JUN 7) */
-        "banks", /* 119 (JUN 8) */
-        "pines", /* 120 (JUN 9) */
-        "chief", /* 121 (JUN 10) used to be GRAVY*/
-        "peaks", /* 122 (JUN 11) */
-        "arena", /* 123 (JUN 12) */
-        "elect", /* 124 (JUN 13) */
-        "house", /* 125 (JUN 14) */
-        "bagel", /* 126 (JUN 15) */
-        "heron", /* 127 (JUN 16) */
-        "mogul", /* 128 (JUN 17) */
-        "radio", /* 129 (JUN 18) */
-        "litre", /* 130 (JUN 19) used to be UNITY*/
-        "royal", /* 131 (JUN 20) */
-        "taiga", /* 132 (JUN 21) used to be PITCH*/
-        "huron", /* 133 (JUN 22) */
-        "trout", /* 134 (JUN 23) */
-        "scarf", /* 135 (JUN 24) */
-        "beads", /* 136 (JUN 25) */
-        "storm", /* 137 (JUN 26) */
-        "craft", /* 138 (JUN 27) */
-        "taffy", /* 139 (JUN 28) */
-        "great", /* 140 (JUN 29) */
-        "pucks", /* 141 (JUN 30) */
-        "proud"  /* 142 (JUL 1, 2022 - END OF CANUCKLE) */
-      ],
-      Ta = [    /* DICTIONARY WORDS*/
+    var Ta = [    /* DICTIONARY WORDS*/
         /* Cognira words */
         "hatem",
         /* standard words */
@@ -14495,6 +14115,40 @@
       Ia = "present",
       Ma = "correct",
       Oa = "absent";
+    var La = [
+        "promo", /* 0 (APR 24, 2022 - START OF COGNIRDLE) */
+        "canoe", /* 1 (APR 25)) */
+        "maple", /* 2 (APR 26) */
+        "inuit", /* 3 (APR 27) */
+        "plaid", /* 4 (APR 28) */
+        "igloo", /* 5 (APR 29) */
+        "hoser", /* 6 (APR 30) */
+        "syrup", /* 7 (MAY 1) */
+        "bacon", /* 8 (MAY 2) */
+        "sorry", /* 9 (MAY 3) */
+        "whale", /* 10 (MAY 4) */
+        "north", /* 11 (MAY 5) */
+        "aboot", /* 12 (MAY 6) */
+        "banff", /* 13 (MAY 7) */
+        "proud"  /* 14 (MAY 8, 2022 - END OF COGNIRDLE) */
+      ];
+    var funFacts = [
+        "Promo, short for promotion, is an area of retail expertise for Cognira.", /*0 promo*/
+        "In Canada, the canoe has long been associated with the fur trade and the romantic figure of the voyageur.", /*1 canoe*/
+        "Is there a more Canadian word than maple?", /*2 maple*/
+        "Inuit live throughout most of Northern Canada in the territory of Nunavut.", /*3 inuit*/
+        "The official tartan for Canada as a whole is known as the Maple leaf tartan.", /*4 plaid*/
+        "Igloo comes from the Inkuktitu word iglu meaning house.", /*5 igloo*/
+        "Hoser is a slang word for a Canadian of limited intelligence.", /*6 hoser*/
+        "Canada produces 71% of the world's maple syrup, 91% of it coming from Quebec.", /*7 syrup*/
+        "Canadian bacon comes from the loin of the pig instead of the side or belly.", /*8 bacon*/
+        "Canadians apologize so much, Canada passed the Apology Act in 2009.", /*9 sorry*/
+        "There are more than 33 species of whale that live in Canada's oceans.", /*10 whale*/
+        "One of Canada's most famous nicknames is the Great White North.", /*11 north*/
+        "This word is a humorous (though incorrect) take on the Canadian accent saying the word “about”.", /*12 aboot*/
+        "Banff was declared a UNESCO World Heritage Site in 1984.", /*13 banff*/
+        "Cognira is proud to have provided a retail version of this game.", /*14 proud*/
+      ];
     var Ra = { unknown: 0, absent: 1, present: 2, correct: 3 };
     function Pa(e, a) {
       var s = {};
@@ -14516,19 +14170,16 @@
         s = e % 100;
       return e + (a[(s - 20) % 10] || a[s] || a[0]);
     }
-    var Ha = new Date(2021, 5, 19, 0, 0, 0, 0);
+    var Ha = new Date(2022, 3, 24, 0, 0, 0, 0); /* Apr 24, 2022 */
     function Na(e, a) {
-      var s = new Date(e),
-        t = new Date(a).setHours(0, 0, 0, 0) - s.setHours(0, 0, 0, 0);
+      var t = new Date(a).setHours(0, 0, 0, 0) - new Date(e).setHours(0, 0, 0, 0)
       return Math.round(t / 864e5);
-    }
-    function Da(e) {
-      var a,
-        s = Ga(e);
-      return (a = s % La.length), La[a];
     }
     function Ga(e) {
       return Na(Ha, e);
+    }
+    function Da(e) {
+      return La[Ga(e) % La.length];
     }
     var Ba = "abcdefghijklmnopqrstuvwxyz",
       Fa = [].concat(g(Ba.split("").slice(13)), g(Ba.split("").slice(0, 13)));
@@ -14627,7 +14278,7 @@
             (e.today = new Date());
           var o = za();
 
-          var currentGame = Ga(e.today) - 235;
+          var currentGame = Ga(e.today); /* -235 */
           if (window.localStorage.getItem("reload"+JSON.stringify(currentGame)) == null) {
             window.localStorage.setItem("reload"+JSON.stringify(currentGame), JSON.stringify(1));
             window.location.reload();
@@ -15532,154 +15183,9 @@
               value: function () {
                 var e = this;
 
-                var funFacts = [
-                "In Canada, the canoe has long been associated with the fur trade and the romantic figure of the voyageur.", /*1 canoe*/
-                "Is there a more Canadian word than maple?", /*2 maple*/
-                "Inuit live throughout most of Northern Canada in the territory of Nunavut.", /*3 inuit*/
-                "The official tartan for Canada as a whole is known as the Maple leaf tartan.", /*4 plaid*/
-                "Igloo comes from the Inkuktitu word iglu meaning house.", /*5 igloo*/
-                "Hoser is a slang word for a Canadian of limited intelligence.", /*6 hoser*/
-                "Canada produces 71% of the world's maple syrup, 91% of it coming from Quebec.", /*7 syrup*/
-                "Canadian bacon comes from the loin of the pig instead of the side or belly.", /*8 bacon*/
-                "Canadians apologize so much, Canada passed the Apology Act in 2009.", /*9 sorry*/
-                "There are more than 33 species of whale that live in Canada's oceans.", /*10 whale*/
-                "One of Canada's most famous nicknames is the Great White North.", /*11 north*/
-                "This word is a humorous (though incorrect) take on the Canadian accent saying the word “about”.", /*12 aboot*/
-                "Banff was declared a UNESCO World Heritage Site in 1984.", /*13 banff*/
-                "About 28 million litres of water travel down Niagara Falls every second.", /*14 falls*/
-                "The word totem comes from the Algonquian word “odoodem” meaning \"his kinship group\".", /*15 totem*/
-                "Queen Elizabeth II has been Canada's monarch for over 70 years.", /*16 queen*/
-                "Loons have beautiful, crimson red eyes, but this is only during mating season.", /*17 loons*/
-                "The Métis invented the york boat, used by the Hudson's Bay Company to carry furs and trade goods along waterways.", /*18 metis*/
-                "Toque (or tuque) is the official name for a winter hat in Canada!", /*19 toque*/
-                "The 202 km of Rideau Canal with 47 locks is the oldest, continuously operated canal system in North America.", /*20 canal*/
-                "Canada has the 3rd largest oil reserves in the world and is the 4th largest oil producer and exporter.", /*21 crude*/
-                "A subspecies known as “giant” Canada geese are the largest geese in the world.", /*22 goose*/
-                "Canada has more lakes than the rest of the world combined! Almost 9% of Canada's total surface area is covered by freshwater.", /*23 lakes*/
-                "As of 2019, there were 47 Crown corporations in Canada, including CBC, Canada Post, VIA Rail, the Royal Canadian Mint, and the Bank of Canada.", /*24 crown*/
-                "PEI produces more potatoes for Canada than any other province and produces 2.5 billion lbs per year!", /*25 spuds*/
-                "Roots Canada opened its first store in 1973 selling footwear, and started using the beaver logo in 1985 with the launch of their athletic brand.", /*26 roots*/
-                "On February 10, 1999, Tahtsa Lake, British Columbia got hit with 145 cm (4'9\") of snow in ONE day!", /*27 snowy*/
-                "Yukon is home to Mount Logan, Canada's tallest mountain (5959 m) and the 2nd highest peak in North America.", /*28 yukon*/
-                "Canada is home to about 16,000 polar bears, which is approximately two-thirds of the world's total estimated population.", /*29 polar*/
-                "Bison are North America's largest land animal, with bulls weighing up to 2000 lbs and cows up to 1000 lbs.", /*30 bison*/
-                "Toronto's CN Tower held the record for the world's tallest free-standing structure for 32 years, from 1975 until 2007.", /*31 tower*/
-                "Roughly half of the world's Grizzly Bears (a Brown Bear subspecies) live in Canada, mostly in BC.", /*32 bears*/
-                "One of the NHL's founding teams, the Toronto Maple Leafs have won 13 Stanley Cups, the most recent being in 1967.", /*33 leafs*/
-                "Close to half of all Canadian wheat is grown in Saskatchewan, followed by Alberta and Manitoba.", /*34 wheat*/
-                "There’s a whopping 48 National Parks and over one thousand Provincial and Territorial parks in the Great White North!", /*35 parks*/
-                "Kayaks were originally designed for hunting and fishing. In fact, the word kayak means “hunter's boat”, and came from “qajaq” or “qayarq”, a Greenlandic Inuit word.", /*36 kayak*/
-                "The moose is the largest species of deer in the world. The average weight of a fully grown male moose (a bull) is 1500 lbs!", /*37 moose*/
-                "Since 2016, the month of June has been declared Pride Month in Canada to celebrate the LGBTQ2+ community.", /*38 pride*/
-                "The Rocky Mountains, also known as the Rockies, are the largest mountain system in North America!", /*39 rocky*/
-                "Scoff is Newfoundland slang for a big feed, typically Jiggs dinner but could be any large, satisfying meal.", /*40 scoff*/
-                "Cabin is another name for a cottage, and Canada has no shortage of weekend getaway spots!", /*41 cabin*/
-                "Canadians spent $9.2 billion on beer in 2020 ($325 per adult), which equates to 2.3 billion litres of beer.", /*42 beers*/
-                "Originally created by the Inuit to keep warm in the Canadian Arctic, the first parkas were made from whale, seal or caribou skin and often coated with fish oil for waterproofing.", /*43 parka*/
-                "In the 2020/21 season, there were 2,860 indoor and 5,000 outdoor ice hockey rinks located in Canada according to the International Ice Hockey Federation.", /*44 rinks*/
-                "Canadians consumed over 240,000 metric tonnes of frozen fries in 2019.", /*45 fries*/
-                "Canada has the longest coastline in the world, measuring 243,042 km!", /*46 coast*/
-                "The Order of Canada is how our country honours people who make extraordinary contributions to the nation.", /*47 order*/
-                "In 1876, Scottish-born inventor Alexander Graham Bell patented the first practical telephone, a concept that he conceived in Brantford, Ontario.", /*48 phone*/
-                "The white birch is the most widely distributed of native birch trees, and grows in every region of Canada. The bark has long been used for making canoes and ornaments.", /*49 birch*/
-                "Canada is home to numerous ports, but the Port of Vancouver is Canada's largest port, and is the most diversified port in North America.", /*50 ports*/
-                "The Dairy Farmers of Canada logo guarantees a product is made with 100% Canadian milk and milk ingredients, and is free of antibiotics.", /*51 dairy*/
-                "Skate Canada is the oldest and largest figure skating organization in the world.", /*52 skate*/
-                "In 2020, roughly 1 out of every 9 Canadian jobs was in the agriculture and agri-food sector.", /*53 farms*/
-                "Annually, Canada’s Rivers discharge 7% of the world’s renewable water supply at a flow rate per second more than four times that of Niagara Falls.", /*54 river*/
-                "Canada's official national sports are ice hockey (winter) and lacrosse (summer).", /*55 sport*/
-                "The Globe and Mail newspaper originated from two competing newspapers, “The Globe” and “The Mail and Empire”.", /*56 globe*/
-                "Poutine (fries topped with cheese curds and gravy) is popular all over Canada and as such it is considered the country's national dish.", /*57 curds*/
-                "Four species of foxes live in Canada: arctic, swift, grey, and red being the most common. The grey fox is one of only 2 members of the dog family that can climb trees.", /*58 foxes*/
-                "Canada is the world’s largest grower and exporter of flax seed, canola, oats, mustard seeds, pulses (peas, beans, and lentils) and durum wheat.", /*59 crops*/
-                "Over 5.7 million Canadian adults camp each year and the camping industry contributes a total of $4.7 billion annually to Canada's economy.", /*60 camps*/
-                "The Calgary Stampede, Canada's largest rodeo, is billed as “The Greatest Outdoor Show on Earth”. It is held every July and turns 110 years old in 2022.", /*61 rodeo*/
-                "Canada’s three biggest trading partners are the United States, the European Union and China. Goods and services trade with the US totaled over $800 billion in 2021.", /*62 trade*/
-                "Canada consistently ranks in the top 10 most peaceful countries in the world according to the Global Peace Index (GPI). The Peace Tower also forms the centrepiece of the Canadian parliament buildings.", /*63 peace*/
-                "In 2020, Canada produced 60 minerals and metals at almost 200 mines, and the value of Canada's mineral production reached $43.8 billion.", /*64 mines*/
-                "The shores of Canada's 52,455 islands are a big part of what makes the country's coastline the longest in the world.", /*65 shore*/
-                "Canada has the world’s largest stock of standing western redcedar trees. The western redcedar is the arboreal emblem of the province of British Columbia.", /*66 cedar*/
-                "With a landmass of 9.1 million square kilometres, Canada is the second-largest country in the world.", /*67 large*/
-                "The Brier is the annual Canadian men's curling championship that has been held since 1927. Team Gushue won the 2022 Brier, their fourth championship in six years.", /*68 brier*/
-                "The highest tides in the world can be found in Canada at the Bay of Fundy, which separates New Brunswick from Nova Scotia.", /*69 tides*/
-                "A klick is a military term used to denote a distance of one kilometre. It is commonly used in Canada when referring to distance or speed.", /*70 klick*/
-                "", /*71 denim*/
-                "", /*72 ships*/
-                "", /*73 poppy*/
-                "", /*74 court*/
-                "", /*75 lodge*/
-                "", /*76 ocean*/
-                "", /*77 rugby*/
-                "", /*78 metre*/
-                "", /*79 elder*/
-                "", /*80 space*/
-                "", /*81 horse*/
-                "", /*82 foggy*/
-                "", /*83 taxes*/
-                "", /*84 train*/
-                "", /*85 music*/
-                "", /*86 mitts*/
-                "", /*87 grain*/
-                "", /*88 rouge*/
-                "", /*89 tulip*/
-                "", /*90 wines*/
-                "", /*91 serge*/
-                "", /*92 rural*/
-                "", /*93 troop*/
-                "", /*94 junos*/
-                "", /*95 track*/
-                "", /*96 sunny*/
-                "", /*97 zones*/
-                "", /*98 beach*/
-                "", /*99 skier*/
-                "", /*100 bases*/
-                "", /*101 smile*/
-                "", /*102 hydro*/
-                "", /*103 trail*/
-                "", /*104 sands*/
-                "", /*105 water*/
-                "", /*106 boots*/
-                "", /*107 tarts*/
-                "", /*108 docks*/
-                "", /*109 privy*/
-                "", /*110 otter*/
-                "", /*111 field*/
-                "", /*112 games*/
-                "", /*113 sleds*/
-                "", /*114 trees*/
-                "", /*115 union*/
-                "", /*116 prime*/
-                "", /*117 chips*/
-                "", /*118 perch*/
-                "", /*119 banks*/
-                "", /*120 pines*/
-                "", /*121 chief*/
-                "", /*122 peaks*/
-                "", /*123 arena*/
-                "", /*124 elect*/
-                "", /*125 house*/
-                "", /*126 bagel*/
-                "", /*127 heron*/
-                "", /*128 mogul*/
-                "", /*129 radio*/
-                "", /*130 litre*/
-                "", /*131 royal*/
-                "", /*132 taiga*/
-                "", /*133 huron*/
-                "", /*134 trout*/
-                "", /*135 scarf*/
-                "", /*136 beads*/
-                "", /*137 storm*/
-                "", /*138 craft*/
-                "", /*139 taffy*/
-                "", /*140 great*/
-                "", /*141 pucks*/
-                "", /*142 proud*/
-
-                ];
-                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 236)) {
-                  var funFact = funFacts[e.gameApp.dayOffset - 236];
-
+                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL")) {
+                  var funFact = funFacts[e.gameApp.dayOffset % funFacts.length]; /* dayOffset-236 */
+                  funFact = "" + e.gameApp.dayOffset + ":" + e.gameApp.solution + " " + funFact
                   if (funFact != "") {
                     this.shadowRoot.appendChild(FFs.content.cloneNode(!0));
 
@@ -15688,83 +15194,12 @@
                     this.shadowRoot.appendChild(ff);
                   }
                 }
+
                 var twitter = document.createElement("div");
                 twitter.innerHTML = '<style>\n td\n {\n padding-top:10px;\n  }\n </style>\n <table align="center" width="60%" border=0 padding=0><tr><td align="center" width="50%"><table><tr><td><a href="https://www.twitter.com/Cognira" target="_blank"><img src="images/twitter2.png" width="24" height="24" alt="@Cognira" title="@Cognira"></a></td><td>&nbsp;<a href="https://www.twitter.com/Cognira" target="_blank">@Cognira</a></td></tr></table></td><td align="center" width="50%"><table><tr><td><a href="http://linkedin.com/company/cognira" target="_blank"><img src="images/Linkedin-icon32.png" width="24" height="24" alt="Cognira" title="Cognira"></a></td><td>&nbsp;<a href="http://linkedin.com/company/cognira" target="_blank">Cognira</a></td></tr></table></td></tr></table>';
                 this.shadowRoot.appendChild(twitter);
 
                 this.shadowRoot.appendChild(Cs.content.cloneNode(!0));
-
-                if (this.gameApp.gameStatus !== Za)
-                {
-                  var p = this.shadowRoot.querySelector(".header"),
-                    m = Is.content.cloneNode(!0);
-                  p.appendChild(m),
-                    this.shadowRoot
-                      .querySelector("button#share-button")
-                      .addEventListener("click", function (a) {
-                        a.preventDefault(), a.stopPropagation();
-                        As(
-                          (function (e) {
-                            var a = e.evaluations,
-                              s = e.dayOffset,
-                              t = e.rowIndex,
-                              o = e.isHardMode,
-                              n = e.isWin,
-                              r = JSON.parse(window.localStorage.getItem(j)),
-                              i = JSON.parse(window.localStorage.getItem(S)),
-                              l = "Cognirdle ".concat(s - 235);
-                            (l += " ".concat(n ? t : "X", "/").concat(6)),
-                              o && (l += "*");
-                            var d = "";
-                            return (
-                              a.forEach(function (e) {
-                                e &&
-                                  (e.forEach(function (e) {
-                                    if (e) {
-                                      var a = "";
-                                      switch (e) {
-                                        case Ma:
-                                          a = (function (e) {
-                                            return e ? "🟧" : "🟦";
-                                          })(i);
-                                          break;
-                                        case Ia:
-                                          a = (function (e) {
-                                            return e ? "🟦" : "🟨";
-                                          })(i);
-                                          break;
-                                        case Oa:
-                                          a = (function (e) {
-                                            return e ? "⬛" : "⬜";
-                                          })(r);
-                                      }
-                                      d += a;
-                                    }
-                                  }),
-                                  (d += "\n"));
-                              }),
-                              { text: "".concat(l, "\n\n").concat(d.trimEnd()) }
-                            );
-                          })({
-                            evaluations: e.gameApp.evaluations,
-                            dayOffset: e.gameApp.dayOffset,
-                            rowIndex: e.gameApp.rowIndex,
-                            isHardMode: e.gameApp.hardMode,
-                            isWin: e.gameApp.gameStatus === es,
-                          }),
-                          function () {
-                            e.gameApp.addToast(
-                              "Copied results to clipboard",
-                              2e3,
-                              !0
-                            );
-                          },
-                          function () {
-                            e.gameApp.addToast("Share failed", 2e3, !0);
-                          }
-                        );
-                      });
-                }
 
                 var a = this.shadowRoot.getElementById("statistics"),
                   s = this.shadowRoot.getElementById("guess-distribution"),
@@ -15828,6 +15263,79 @@
                       c && 7 === c && u.classList.add("highlight");
                     }
                     s.appendChild(l);
+
+                    if (this.gameApp.gameStatus !== Za)
+                    {
+                      var p = this.shadowRoot.querySelector(".header"),
+                        m = Is.content.cloneNode(!0);
+                      p.appendChild(m),
+                        this.shadowRoot
+                          .querySelector("button#share-button")
+                          .addEventListener("click", function (a) {
+                            a.preventDefault(), a.stopPropagation();
+                            As(
+                              (function (e) {
+                                var a = e.evaluations,
+                                  s = e.dayOffset,
+                                  t = e.rowIndex,
+                                  o = e.isHardMode,
+                                  n = e.isWin,
+                                  r = JSON.parse(window.localStorage.getItem(j)),
+                                  i = JSON.parse(window.localStorage.getItem(S)),
+                                  l = "Cognirdle ".concat(s); /* -235 */
+                                (l += " ".concat(n ? t : "X", "/").concat(6)),
+                                  o && (l += "*");
+                                var d = "";
+                                return (
+                                  a.forEach(function (e) {
+                                    e &&
+                                      (e.forEach(function (e) {
+                                        if (e) {
+                                          var a = "";
+                                          switch (e) {
+                                            case Ma:
+                                              a = (function (e) {
+                                                return e ? "🟧" : "🟦";
+                                              })(i);
+                                              break;
+                                            case Ia:
+                                              a = (function (e) {
+                                                return e ? "🟦" : "🟨";
+                                              })(i);
+                                              break;
+                                            case Oa:
+                                              a = (function (e) {
+                                                return e ? "⬛" : "⬜";
+                                              })(r);
+                                          }
+                                          d += a;
+                                        }
+                                      }),
+                                      (d += "\n"));
+                                  }),
+                                  { text: "".concat(l, "\n\n").concat(d.trimEnd()) }
+                                );
+                              })({
+                                evaluations: e.gameApp.evaluations,
+                                dayOffset: e.gameApp.dayOffset,
+                                rowIndex: e.gameApp.rowIndex,
+                                isHardMode: e.gameApp.hardMode,
+                                isWin: e.gameApp.gameStatus === es,
+                              }),
+                              function () {
+                                e.gameApp.addToast(
+                                  "Copied results to clipboard",
+                                  2e3,
+                                  !0
+                                );
+                              },
+                              function () {
+                                e.gameApp.addToast("Share failed", 2e3, !0);
+                              }
+                            );
+                          });
+                    }
+
                 }
 
                 [
@@ -15844,6 +15352,7 @@
                       (n.querySelector(".statistic").textContent = o),
                       a.appendChild(n);
                   });
+
               },
             },
           ]),
