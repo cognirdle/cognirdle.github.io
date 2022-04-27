@@ -14115,39 +14115,54 @@
       Ia = "present",
       Ma = "correct",
       Oa = "absent";
+    var Ha = new Date(2022, 3, 26, 0, 0, 0, 0); /* Apr 27, 2022 */
     var La = [
-        "promo", /* 0 (APR 24, 2022 - START OF COGNIRDLE) */
-        "canoe", /* 1 (APR 25)) */
-        "maple", /* 2 (APR 26) */
-        "inuit", /* 3 (APR 27) */
-        "plaid", /* 4 (APR 28) */
-        "igloo", /* 5 (APR 29) */
-        "hoser", /* 6 (APR 30) */
-        "syrup", /* 7 (MAY 1) */
-        "bacon", /* 8 (MAY 2) */
-        "sorry", /* 9 (MAY 3) */
-        "whale", /* 10 (MAY 4) */
-        "north", /* 11 (MAY 5) */
-        "aboot", /* 12 (MAY 6) */
-        "banff", /* 13 (MAY 7) */
-        "proud"  /* 14 (MAY 8, 2022 - END OF COGNIRDLE) */
+        "promo", /* 0 (APR 27, 2022 - START OF COGNIRDLE) */
+        "brick", /* 1 (APR 28) */
+        "click", /* 2 (APR 29) */
+        "cross", /* 3 (APR 30) */
+        "flash", /* 4 (MAY 1) */
+        "green", /* 5 (MAY 2) */
+        "speed", /* 6 (MAY 3) */
+        "popup", /* 7 (MAY 4) */
+        "stock", /* 8 (MAY 5) */
+        "aisle", /* 9 (MAY 6) */
+        "sales", /* 10 (MAY 7) */
+        "chain", /* 11 (MAY 8) */
+        "thing", /* 12 (MAY 9) */
+        "niche", /* 13 (MAY 10) */
+        "cycle", /* 14 (MAY 11) */
+        "point", /* 15 (MAY 12) */
+        "label", /* 16 (MAY 13) */
+        "serve", /* 17 (MAY 14) */
+        "brand", /* 18 (MAY 15) */
+        "store", /* 19 (MAY 16) */
+        "costs", /* 20 (MAY 17) */
+        "proud"  /* 21 (MAY 18, 2022 - END OF COGNIRDLE) */
       ];
     var funFacts = [
-        "Promo, short for promotion, is an area of retail expertise for Cognira.", /*0 promo*/
-        "In Canada, the canoe has long been associated with the fur trade and the romantic figure of the voyageur.", /*1 canoe*/
-        "Is there a more Canadian word than maple?", /*2 maple*/
-        "Inuit live throughout most of Northern Canada in the territory of Nunavut.", /*3 inuit*/
-        "The official tartan for Canada as a whole is known as the Maple leaf tartan.", /*4 plaid*/
-        "Igloo comes from the Inkuktitu word iglu meaning house.", /*5 igloo*/
-        "Hoser is a slang word for a Canadian of limited intelligence.", /*6 hoser*/
-        "Canada produces 71% of the world's maple syrup, 91% of it coming from Quebec.", /*7 syrup*/
-        "Canadian bacon comes from the loin of the pig instead of the side or belly.", /*8 bacon*/
-        "Canadians apologize so much, Canada passed the Apology Act in 2009.", /*9 sorry*/
-        "There are more than 33 species of whale that live in Canada's oceans.", /*10 whale*/
-        "One of Canada's most famous nicknames is the Great White North.", /*11 north*/
-        "This word is a humorous (though incorrect) take on the Canadian accent saying the word “about”.", /*12 aboot*/
-        "Banff was declared a UNESCO World Heritage Site in 1984.", /*13 banff*/
-        "Cognira is proud to have provided a retail version of this game.", /*14 proud*/
+      /* 0  */ "Promo, short for promotion, is an area of retail expertise for Cognira.",
+      /* 1  */ "Brick and mortar stores are physical locations that compliment ecommerce sites.",
+      /* 2  */ "Mouse action used in web browsers for online decisions.",
+      /* 3  */ "Cross merchandising is the practice of displaying or putting together products from different categories to drive add-on sales.",
+      /* 4  */ "Flash sales can last anywhere from several hours to a couple of days and entice consumers with huge bargains.",
+      /* 5  */ "Green retailing is the environmentally-friendly practices that retailers get into.",
+      /* 6  */ "High speed retail is all about making the customer’s shopping experience go by much quicker.",
+      /* 7  */ "Pop-Up-Stores are short-term shops or sales spaces that come and go within a given period.",
+      /* 8  */ "Dead stock pertains to merchandise that has never been sold or has been in stock for a while.",
+      /* 9  */ "An endless aisle is a feature of brick-and-mortar stores that enables customers to browse and shop the retailer’s entire catalog of products.",
+      /* 10 */ "Retailers aim to increase sales and decrease costs to achieve success.",
+      /* 11 */ "Integrated supply chain is a network of businesses and contractors that work and coordinate closely together to manufacture, transport, distribute, and sell retail goods.",
+      /* 12 */ "Internet of Things (IoT) is the concept of getting objects such as cars or household appliances to “talk” to each other. ",
+      /* 13 */ "Niche retailing is the practice of selling only to a specific market segment. In other words, if you’re a niche retailer, you specialize in a particular type of product (or sometimes a few closely related ones).",
+      /* 14 */ "Product life cycle is the series of stages that each commercial product goes through when it hits the market.",
+      /* 15 */ "Point of sale (POS) system functions as a cash register or till system that lets retailers ring up sales and keep a record of those transactions in their stores.",
+      /* 16 */ "Private label brands are owned not by a manufacturer, but by a retailer or supplier.",
+      /* 17 */ "Self serve In retail means letting customers select and pay for goods themselves, without requiring the assistance of a live staff member.",
+      /* 18 */ "Unified brand experience is all about establishing a consistent brand or identity throughout multiple channels or platforms, including brick-and-mortar, ecommerce, or mobile.",
+      /* 19 */ "A physical location for the display and sale of products.",
+      /* 20 */ "The age-old question for most business owners is how to reduce expenses.",
+      /* 21 */ "Cognira is proud to have provided a retail version of this game."
       ];
     var Ra = { unknown: 0, absent: 1, present: 2, correct: 3 };
     function Pa(e, a) {
@@ -14170,7 +14185,6 @@
         s = e % 100;
       return e + (a[(s - 20) % 10] || a[s] || a[0]);
     }
-    var Ha = new Date(2022, 3, 24, 0, 0, 0, 0); /* Apr 24, 2022 */
     function Na(e, a) {
       var t = new Date(a).setHours(0, 0, 0, 0) - new Date(e).setHours(0, 0, 0, 0)
       return Math.round(t / 864e5);
