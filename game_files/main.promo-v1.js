@@ -1251,7 +1251,7 @@
                     ? void 0
                     : e.hash),
                 (this.shadowRoot.querySelector("#puzzle-number").textContent =
-                  "#".concat(this.gameApp.dayOffset)), /* -235 */
+                  "#".concat(this.gameApp.dayOffset)),
                 this.shadowRoot.addEventListener(
                   "game-switch-change",
                   function (e) {
@@ -14115,30 +14115,41 @@
       Ia = "present",
       Ma = "correct",
       Oa = "absent";
-    var Ha = new Date(2022, 3, 26, 0, 0, 0, 0); /* Apr 27, 2022 */
+    var Ha = new Date(2022, 3, 29, 0, 0, 0, 0); /* Apr 29, 2022 */
+    var Htime = 864e5;
     var La = [
-        "promo", /* 0 (APR 27, 2022 - START OF COGNIRDLE) */
-        "brick", /* 1 (APR 28) */
-        "click", /* 2 (APR 29) */
-        "cross", /* 3 (APR 30) */
-        "flash", /* 4 (MAY 1) */
-        "green", /* 5 (MAY 2) */
-        "speed", /* 6 (MAY 3) */
-        "popup", /* 7 (MAY 4) */
-        "stock", /* 8 (MAY 5) */
-        "aisle", /* 9 (MAY 6) */
-        "sales", /* 10 (MAY 7) */
-        "chain", /* 11 (MAY 8) */
-        "thing", /* 12 (MAY 9) */
-        "niche", /* 13 (MAY 10) */
-        "cycle", /* 14 (MAY 11) */
-        "point", /* 15 (MAY 12) */
-        "label", /* 16 (MAY 13) */
-        "serve", /* 17 (MAY 14) */
-        "brand", /* 18 (MAY 15) */
-        "store", /* 19 (MAY 16) */
-        "costs", /* 20 (MAY 17) */
-        "proud"  /* 21 (MAY 18, 2022 - END OF COGNIRDLE) */
+      /* 0  */ "promo",
+      /* 1  */ "brick",
+      /* 2  */ "click",
+      /* 3  */ "cross",
+      /* 4  */ "flash",
+      /* 5  */ "green",
+      /* 6  */ "speed",
+      /* 7  */ "popup",
+      /* 8  */ "stock",
+      /* 9  */ "aisle",
+      /* 10 */ "sales",
+      /* 11 */ "chain",
+      /* 12 */ "thing",
+      /* 13 */ "niche",
+      /* 14 */ "cycle",
+      /* 15 */ "point",
+      /* 16 */ "label",
+      /* 17 */ "serve",
+      /* 18 */ "brand",
+      /* 19 */ "store",
+      /* 20 */ "costs",
+      /* 21 */ "goods",
+      /* 22 */ "rates",
+      /* 23 */ "depth",
+      /* 24 */ "gross",
+      /* 25 */ "lines",
+      /* 26 */ "price",
+      /* 27 */ "index",
+      /* 28 */ "order",
+      /* 29 */ "vital",
+      /* 30 */ "packs",
+      /* 31 */ "proud",
       ];
     var funFacts = [
       /* 0  */ "Promo, short for promotion, is an area of retail expertise for Cognira.",
@@ -14158,11 +14169,27 @@
       /* 14 */ "Product life cycle is the series of stages that each commercial product goes through when it hits the market.",
       /* 15 */ "Point of sale (POS) system functions as a cash register or till system that lets retailers ring up sales and keep a record of those transactions in their stores.",
       /* 16 */ "Private label brands are owned not by a manufacturer, but by a retailer or supplier.",
-      /* 17 */ "Self serve In retail means letting customers select and pay for goods themselves, without requiring the assistance of a live staff member.",
+      /* 17 */ "Self serve means letting customers select and pay for goods themselves, without requiring the assistance of a live staff member.",
       /* 18 */ "Unified brand experience is all about establishing a consistent brand or identity throughout multiple channels or platforms, including brick-and-mortar, ecommerce, or mobile.",
       /* 19 */ "A physical location for the display and sale of products.",
       /* 20 */ "The age-old question for most business owners is how to reduce expenses.",
-      /* 21 */ "Cognira is proud to have provided a retail version of this game."
+      /* 21 */ "Consumer packaged good, often abbreviated to CPG, are items that are used daily by the average consumer.",
+      /* 22 */ "Retail conversion rates measure the percentage of visitors that make a purchase. Visitors may include shoppers that visit a store or a web site.",
+      /* 23 */ "The depth of assortment is the amount of each item or different styles of a product that a retailer stocks.",
+      /* 24 */ "Gross margin is total sales revenue minus the cost of goods sold, expressed as a percentage of total sales revenue.",
+      /* 25 */ "Hardlines and softlines (or hard goods and soft goods) are two major kinds of retail inventory. Soft goods are items that are literally soft, such as clothing. Hard goods are non-personal items such as electronics, appliances and sporting equipment.",
+      /* 26 */ "Minimum advertised price is a supplier's policy that doesn't permit retailers to advertise below a specific amount, although they can sell items for less than this price.",
+      /* 27 */ "Monthly sales index is a measure of growth or loss, that compares monthly sales to an average of monthly sales.",
+      /* 28 */ "Order lead time is the period between when the retailer places an order with a supplier and when the product is delivered to their store.",
+      /* 29 */ "A planogram is a vital part of merchandising and retail space planning. It diagrams how and where products should be displayed to affect purchasing decisions.",
+      /* 30 */ "Packs are how certain items are bundled together for ordering, which is independent from how they are sold.",
+      /* 31 */ "Cognira is proud to have provided a retail version of this game.",
+      ];
+    var RandIndex = [
+        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+        [8, 4, 10, 15, 11, 2, 7, 9, 5, 1, 0, 6, 14, 12, 13, 3, 20, 28, 16, 19, 29, 23, 30, 27, 21, 18, 26, 25, 17, 22, 31, 24],
+        [12, 11, 7, 10, 2, 3, 0, 8, 4, 9, 15, 6, 13, 14, 1, 5, 19, 17, 18, 27, 31, 25, 26, 29, 21, 28, 24, 30, 23, 16, 20, 22],
+        [11, 14, 15, 1, 6, 3, 8, 4, 10, 0, 12, 13, 2, 9, 5, 7, 16, 19, 31, 24, 26, 21, 25, 20, 27, 29, 28, 22, 23, 30, 17, 18]
       ];
     var Ra = { unknown: 0, absent: 1, present: 2, correct: 3 };
     function Pa(e, a) {
@@ -14187,13 +14214,27 @@
     }
     function Na(e, a) {
       var t = new Date(a).setHours(0, 0, 0, 0) - new Date(e).setHours(0, 0, 0, 0)
-      return Math.round(t / 864e5);
+      return Math.round(t / Htime);
     }
     function Ga(e) {
       return Na(Ha, e);
     }
+    function dayOffsetToIndex(d) {
+      var w = Math.floor(d / La.length) % 4;
+      var i = d % La.length;
+      return RandIndex[w][i] % La.length;
+    }
     function Da(e) {
-      return La[Ga(e) % La.length];
+      /*** debug ***
+      var t = new Date().setHours(0, 0, 0, 0) - new Date(Ha).setHours(0, 0, 0, 0);
+      var i = Math.round(t / Htime);
+      console.log("random offsets 2");
+      for (var n = 0; n < 140; n++) {
+          var dOffset = i + n;
+          console.log("day offset: " + dOffset + ", index " + dayOffsetToIndex(dOffset));
+      } ***/
+      var index = dayOffsetToIndex(Ga(e))
+      return La[index];
     }
     var Ba = "abcdefghijklmnopqrstuvwxyz",
       Fa = [].concat(g(Ba.split("").slice(13)), g(Ba.split("").slice(0, 13)));
@@ -14292,7 +14333,7 @@
             (e.today = new Date());
           var o = za();
 
-          var currentGame = Ga(e.today); /* -235 */
+          var currentGame = Ga(e.today);
           if (window.localStorage.getItem("reload"+JSON.stringify(currentGame)) == null) {
             window.localStorage.setItem("reload"+JSON.stringify(currentGame), JSON.stringify(1));
             window.location.reload();
@@ -15198,8 +15239,8 @@
                 var e = this;
 
                 if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL")) {
-                  var funFact = funFacts[e.gameApp.dayOffset % funFacts.length]; /* dayOffset-236 */
-                  /* funFact = "" + e.gameApp.dayOffset + ":" + e.gameApp.solution + " " + funFact */
+                  var index = dayOffsetToIndex(e.gameApp.dayOffset);
+                  var funFact = funFacts[index];
                   if (funFact != "") {
                     this.shadowRoot.appendChild(FFs.content.cloneNode(!0));
 
@@ -15296,7 +15337,7 @@
                                   n = e.isWin,
                                   r = JSON.parse(window.localStorage.getItem(j)),
                                   i = JSON.parse(window.localStorage.getItem(S)),
-                                  l = "Cognirdle ".concat(s); /* -235 */
+                                  l = "Cognirdle ".concat(s);
                                 (l += " ".concat(n ? t : "X", "/").concat(6)),
                                   o && (l += "*");
                                 var d = "";
@@ -15581,7 +15622,7 @@
                   s = Math.floor(this.targetEpochMS - a);
                 if (s <= 0) e = "00:00:00";
                 else {
-                  var t = Math.floor((s % 864e5) / Js),
+                  var t = Math.floor((s % Htime) / Js),
                     o = Math.floor((s % Js) / Ys),
                     n = Math.floor((s % Ys) / 1e3);
                   e = ""
