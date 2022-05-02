@@ -1360,6 +1360,7 @@
         /* Cognira words */
         "hatem",
         /* standard words */
+        "group",
         "gimli",
         "comox",
         "digby",
