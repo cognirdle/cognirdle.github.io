@@ -14461,7 +14461,8 @@
                     l = r.every(function (e) {
                       return "correct" === e;
                     });
-                  if (i || l)
+                  if (i || l) {
+                    var stats = Xa();
                     Va({
                       isWin: l,
                       isStreak:
@@ -14477,9 +14478,10 @@
                         hard_mode: this.hardMode ? 1 : 0,
                         high_contrast: document.querySelector("body").classList.contains("colorblind") ? 1 : 0,
                         dark_theme: document.querySelector("body").classList.contains("nightmode") ? 1 : 0,
-                        games_played: 0,
+                        games_played: stats.gamesPlayed,
                         success: l,
                       });
+                  }
                   (this.tileIndex = 0),
                     (this.canInput = !1),
                     ja({
