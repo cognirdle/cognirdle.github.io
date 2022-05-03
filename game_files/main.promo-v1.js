@@ -14357,7 +14357,7 @@
                   solution: e.solution,
                   gameStatus: e.gameStatus,
                 }),
-                Ca("event", "level_start", { level_name_start: e.solution }))
+                Ca("event", "level_start", { level_name: e.solution }))
               : ((e.boardState = o.boardState),
                 (e.evaluations = o.evaluations),
                 (e.rowIndex = o.rowIndex),
@@ -14477,6 +14477,7 @@
                         hard_mode: this.hardMode ? 1 : 0,
                         high_contrast: document.querySelector("body").classList.contains("colorblind") ? 1 : 0,
                         dark_theme: document.querySelector("body").classList.contains("nightmode") ? 1 : 0,
+                        games_played: this.gamesPlayed,
                         success: l,
                       });
                   (this.tileIndex = 0),
