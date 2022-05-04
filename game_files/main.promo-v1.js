@@ -15255,7 +15255,7 @@
                 }
 
                 var twitter = document.createElement("div");
-                twitter.innerHTML = '<style>\n td\n {\n padding-top:10px;\n  }\n </style>\n <table align="center" width="70%" border=0 padding=0><tr><td align="center" width="50%"><table><tr><td><a href="https://www.twitter.com/Cognira" target="_blank"><img src="images/twitter2.png" width="24" height="24" alt="@Cognira" title="@Cognira"></a></td><td>&nbsp;<a href="https://www.twitter.com/Cognira" target="_blank">@Cognira</a></td></tr></table></td><td align="center" width="50%"><table><tr><td><a href="http://linkedin.com/company/cognira" target="_blank"><img src="images/Linkedin-icon32.png" width="24" height="24" alt="Cognira" title="Cognira"></a></td><td>&nbsp;<a href="http://linkedin.com/company/cognira" target="_blank">Cognira</a></td></tr></table></td></tr></table>';
+                twitter.innerHTML = '<style>\n td\n {\n padding-top:10px;\n  }\n </style>\n <table align="center" width="90%" border=0 padding=0><tr><td align="center" width="50%"><table><tr><td><a href="https://www.twitter.com/Cognira" target="_blank"><img src="images/twitter2.png" width="24" height="24" alt="@Cognira" title="@Cognira"></a></td><td>&nbsp;<a href="https://www.twitter.com/Cognira" target="_blank">@Cognira</a></td></tr></table></td><td align="center" width="50%"><table><tr><td><a href="http://linkedin.com/company/cognira" target="_blank"><img src="images/Linkedin-icon32.png" width="24" height="24" alt="Cognira" title="Cognira"></a></td><td>&nbsp;<a href="http://linkedin.com/company/cognira" target="_blank">Cognira</a></td></tr></table></td></tr></table>';
                 this.shadowRoot.appendChild(twitter);
 
                 this.shadowRoot.appendChild(Cs.content.cloneNode(!0));
