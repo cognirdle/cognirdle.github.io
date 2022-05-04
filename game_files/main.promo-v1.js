@@ -14478,7 +14478,7 @@
                         hard_mode: this.hardMode ? 1 : 0,
                         high_contrast: document.querySelector("body").classList.contains("colorblind") ? 1 : 0,
                         dark_theme: document.querySelector("body").classList.contains("nightmode") ? 1 : 0,
-                        games_played: stats.gamesPlayed,
+                        games_played: stats.gamesPlayed+1,
                         success: l,
                       });
                   }
