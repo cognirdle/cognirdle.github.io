@@ -14480,7 +14480,6 @@
                         high_contrast: document.querySelector("body").classList.contains("colorblind") ? 1 : 0,
                         dark_theme: document.querySelector("body").classList.contains("nightmode") ? 1 : 0,
                         games_played: stats.gamesPlayed+1,
-                        level_number: this.dayOffset,
                         success: l,
                       });
                   }
