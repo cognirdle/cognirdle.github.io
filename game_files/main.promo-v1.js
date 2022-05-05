@@ -14116,7 +14116,7 @@
       Ia = "present",
       Ma = "correct",
       Oa = "absent";
-    var Ha = new Date(2022, 3, 29, 0, 0, 0, 0); /* Apr 29, 2022 */
+    var Ha = new Date(2022, 4, 6, 0, 0, 0, 0); /* May 6, 2022 */
     var Htime = 864e5;
     var La = [
       /* 0  */ "promo",
@@ -14218,7 +14218,8 @@
       return Math.round(t / Htime);
     }
     function Ga(e) {
-      return Na(Ha, e);
+      var g = Na(Ha, e);
+      return g < 0 ? 0 : g;
     }
     function dayOffsetToIndex(d) {
       var w = Math.floor(d / La.length) % 4;
@@ -14301,12 +14302,12 @@
       es = "WIN",
       as = "FAIL",
       ss = [
-        "Cognira Rockstar!",
-        "Wow, Amazing!",
-        "True Blue!",
-        "Awesome!",
-        "Respectable!",
-        "Don't worry, be happy!",
+        "Genius!",
+        "Wow, Impressive!",
+        "Nice work!",
+        "Solid effort!",
+        "Cutting it close!",
+        "Phew!",
       ],
       ts = (function (e) {
         r(t, e);
@@ -14479,6 +14480,7 @@
                         high_contrast: document.querySelector("body").classList.contains("colorblind") ? 1 : 0,
                         dark_theme: document.querySelector("body").classList.contains("nightmode") ? 1 : 0,
                         games_played: stats.gamesPlayed+1,
+                        level_number: this.dayOffset,
                         success: l,
                       });
                   }
