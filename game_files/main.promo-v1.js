@@ -1357,9 +1357,7 @@
       debug_mode: !1,
     });
     var Ta = [    /* DICTIONARY WORDS*/
-        /* Cognira words */
-        "hatem",
-        /* standard words */
+        "click",
         "group",
         "gimli",
         "comox",
@@ -14119,72 +14117,72 @@
     var Ha = new Date(2022, 4, 6, 0, 0, 0, 0); /* May 6, 2022 */
     var Htime = 864e5;
     var La = [
-      /* 0  */ "promo",
-      /* 1  */ "brick",
-      /* 2  */ "click",
-      /* 3  */ "cross",
-      /* 4  */ "flash",
-      /* 5  */ "green",
-      /* 6  */ "speed",
-      /* 7  */ "popup",
-      /* 8  */ "stock",
-      /* 9  */ "aisle",
-      /* 10 */ "sales",
-      /* 11 */ "chain",
-      /* 12 */ "thing",
-      /* 13 */ "niche",
-      /* 14 */ "cycle",
-      /* 15 */ "point",
-      /* 16 */ "label",
-      /* 17 */ "serve",
-      /* 18 */ "brand",
-      /* 19 */ "store",
-      /* 20 */ "costs",
-      /* 21 */ "goods",
-      /* 22 */ "rates",
-      /* 23 */ "depth",
-      /* 24 */ "gross",
-      /* 25 */ "lines",
-      /* 26 */ "price",
-      /* 27 */ "index",
-      /* 28 */ "order",
-      /* 29 */ "vital",
-      /* 30 */ "packs",
-      /* 31 */ "proud",
+      "KFIQQ",
+      "45O0O",
+      "8SO0O",
+      "0DOB9",
+      "CM81E",
+      "0F22M",
+      "BS22C",
+      "UQMBU",
+      "9DOAO",
+      "0G9S2",
+      "18M89",
+      "AC0GM",
+      "FCIKA",
+      "KIAC2",
+      "0P8S2",
+      "UQIKD",
+      "K860S",
+      "38752",
+      "452KC",
+      "9DGF2",
+      "AO9D9",
+      "AQOE9",
+      "50789",
+      "68SFE",
+      "0FOB9",
+      "KOM29",
+      "KFO02",
+      "IK68F",
+      "GF685",
+      "5I58S",
+      "KA8O9",
+      "KFIBC",
       ];
-    var funFacts = [
-      /* 0  */ "Promo, short for promotion, is an area of retail expertise for Cognira.",
-      /* 1  */ "Brick and mortar stores are physical locations that compliment ecommerce sites.",
-      /* 2  */ "Mouse action used in web browsers for online decisions.",
-      /* 3  */ "Cross merchandising is the practice of displaying or putting together products from different categories to drive add-on sales.",
-      /* 4  */ "Flash sales can last anywhere from several hours to a couple of days and entice consumers with huge bargains.",
-      /* 5  */ "Green retailing is the environmentally-friendly practices that retailers get into.",
-      /* 6  */ "High speed retail is all about making the customer’s shopping experience go by much quicker.",
-      /* 7  */ "Pop-Up-Stores are short-term shops or sales spaces that come and go within a given period.",
-      /* 8  */ "Dead stock pertains to merchandise that has never been sold or has been in stock for a while.",
-      /* 9  */ "An endless aisle is a feature of brick-and-mortar stores that enables customers to browse and shop the retailer’s entire catalog of products.",
-      /* 10 */ "Retailers aim to increase sales and decrease costs to achieve success.",
-      /* 11 */ "Integrated supply chain is a network of businesses and contractors that work and coordinate closely together to manufacture, transport, distribute, and sell retail goods.",
-      /* 12 */ "Internet of Things (IoT) is the concept of getting objects such as cars or household appliances to “talk” to each other. ",
-      /* 13 */ "Niche retailing is the practice of selling only to a specific market segment. In other words, if you’re a niche retailer, you specialize in a particular type of product (or sometimes a few closely related ones).",
-      /* 14 */ "Product life cycle is the series of stages that each commercial product goes through when it hits the market.",
-      /* 15 */ "Point of sale (POS) system functions as a cash register or till system that lets retailers ring up sales and keep a record of those transactions in their stores.",
-      /* 16 */ "Private label brands are owned not by a manufacturer, but by a retailer or supplier.",
-      /* 17 */ "Self serve means letting customers select and pay for goods themselves, without requiring the assistance of a live staff member.",
-      /* 18 */ "Unified brand experience is all about establishing a consistent brand or identity throughout multiple channels or platforms, including brick-and-mortar, ecommerce, or mobile.",
-      /* 19 */ "A physical location for the display and sale of products.",
-      /* 20 */ "The age-old question for most business owners is how to reduce expenses.",
-      /* 21 */ "Consumer packaged good, often abbreviated to CPG, are items that are used daily by the average consumer.",
-      /* 22 */ "Retail conversion rates measure the percentage of visitors that make a purchase. Visitors may include shoppers that visit a store or a web site.",
-      /* 23 */ "The depth of assortment is the amount of each item or different styles of a product that a retailer stocks.",
-      /* 24 */ "Gross margin is total sales revenue minus the cost of goods sold, expressed as a percentage of total sales revenue.",
-      /* 25 */ "Hardlines and softlines (or hard goods and soft goods) are two major kinds of retail inventory. Soft goods are items that are literally soft, such as clothing. Hard goods are non-personal items such as electronics, appliances and sporting equipment.",
-      /* 26 */ "Minimum advertised price is a supplier's policy that doesn't permit retailers to advertise below a specific amount, although they can sell items for less than this price.",
-      /* 27 */ "Monthly sales index is a measure of growth or loss, that compares monthly sales to an average of monthly sales.",
-      /* 28 */ "Order lead time is the period between when the retailer places an order with a supplier and when the product is delivered to their store.",
-      /* 29 */ "A planogram is a vital part of merchandising and retail space planning. It diagrams how and where products should be displayed to affect purchasing decisions.",
-      /* 30 */ "Packs are how certain items are bundled together for ordering, which is independent from how they are sold.",
-      /* 31 */ "Cognira is proud to have provided a retail version of this game.",
+    var FuFa = [
+      "FAHCGPGNGPCMCAHDGIGPHCHECAGGGPHCCAHAHCGPGNGPHEGJGPGOCMCAGJHDCAGBGOCAGBHCGFGBCAGPGGCAHCGFHEGBGJGMCAGFHIHAGFHCHEGJHDGFCAGGGPHCCAEDGPGHGOGJHCGBCO",
+      "ECHCGJGDGLCAGBGOGECAGNGPHCHEGBHCCAHDHEGPHCGFHDCAGBHCGFCAHAGIHJHDGJGDGBGMCAGMGPGDGBHEGJGPGOHDCAHEGIGBHECAGDGPGNHAGMGJGNGFGOHECAGFGDGPGNGNGFHCGDGFCAHDGJHEGFHDCO",
+      "ENGPHFHDGFCAGBGDHEGJGPGOCAHFHDGFGECAGJGOCAHHGFGCCAGCHCGPHHHDGFHCHDCAGGGPHCCAGPGOGMGJGOGFCAGEGFGDGJHDGJGPGOHDCO",
+      "EDHCGPHDHDCAGNGFHCGDGIGBGOGEGJHDGJGOGHCAGJHDCAHEGIGFCAHAHCGBGDHEGJGDGFCAGPGGCAGEGJHDHAGMGBHJGJGOGHCAGPHCCAHAHFHEHEGJGOGHCAHEGPGHGFHEGIGFHCCAHAHCGPGEHFGDHEHDCAGGHCGPGNCAGEGJGGGGGFHCGFGOHECAGDGBHEGFGHGPHCGJGFHDCAHEGPCAGEHCGJHGGFCAGBGEGECNGPGOCAHDGBGMGFHDCO",
+      "EGGMGBHDGICAHDGBGMGFHDCAGDGBGOCAGMGBHDHECAGBGOHJHHGIGFHCGFCAGGHCGPGNCAHDGFHGGFHCGBGMCAGIGPHFHCHDCAHEGPCAGBCAGDGPHFHAGMGFCAGPGGCAGEGBHJHDCAGBGOGECAGFGOHEGJGDGFCAGDGPGOHDHFGNGFHCHDCAHHGJHEGICAGIHFGHGFCAGCGBHCGHGBGJGOHDCO",
+      "EHHCGFGFGOCAHCGFHEGBGJGMGJGOGHCAGJHDCAHEGIGFCAGFGOHGGJHCGPGOGNGFGOHEGBGMGMHJCNGGHCGJGFGOGEGMHJCAHAHCGBGDHEGJGDGFHDCAHEGIGBHECAHCGFHEGBGJGMGFHCHDCAGHGFHECAGJGOHEGPCO",
+      "EIGJGHGICAHDHAGFGFGECAHCGFHEGBGJGMCAGJHDCAGBGMGMCAGBGCGPHFHECAGNGBGLGJGOGHCAHEGIGFCAGDHFHDHEGPGNGFHCCHHDCAHDGIGPHAHAGJGOGHCAGFHIHAGFHCGJGFGOGDGFCAGHGPCAGCHJCAGNHFGDGICAHBHFGJGDGLGFHCCO",
+      "FAGPHACNFFHACNFDHEGPHCGFHDCAGBHCGFCAHDGIGPHCHECNHEGFHCGNCAHDGIGPHAHDCAGPHCCAHDGBGMGFHDCAHDHAGBGDGFHDCAHEGIGBHECAGDGPGNGFCAGBGOGECAGHGPCAHHGJHEGIGJGOCAGBCAGHGJHGGFGOCAHAGFHCGJGPGECO",
+      "EEGFGBGECAHDHEGPGDGLCAHAGFHCHEGBGJGOHDCAHEGPCAGNGFHCGDGIGBGOGEGJHDGFCAHEGIGBHECAGIGBHDCAGOGFHGGFHCCAGCGFGFGOCAHDGPGMGECAGPHCCAGIGBHDCAGCGFGFGOCAGJGOCAHDHEGPGDGLCAGGGPHCCAGBCAHHGIGJGMGFCO",
+      "EBGOCAGFGOGEGMGFHDHDCAGBGJHDGMGFCAGJHDCAGBCAGGGFGBHEHFHCGFCAGPGGCAGCHCGJGDGLCNGBGOGECNGNGPHCHEGBHCCAHDHEGPHCGFHDCAHEGIGBHECAGFGOGBGCGMGFHDCAGDHFHDHEGPGNGFHCHDCAHEGPCAGCHCGPHHHDGFCAGBGOGECAHDGIGPHACAHEGIGFCAHCGFHEGBGJGMGFHCCHHDCAGFGOHEGJHCGFCAGDGBHEGBGMGPGHCAGPGGCAHAHCGPGEHFGDHEHDCO",
+      "FCGFHEGBGJGMGFHCHDCAGBGJGNCAHEGPCAGJGOGDHCGFGBHDGFCAHDGBGMGFHDCAGBGOGECAGEGFGDHCGFGBHDGFCAGDGPHDHEHDCAHEGPCAGBGDGIGJGFHGGFCAHDHFGDGDGFHDHDCO",
+      "EJGOHEGFGHHCGBHEGFGECAHDHFHAHAGMHJCAGDGIGBGJGOCAGJHDCAGBCAGOGFHEHHGPHCGLCAGPGGCAGCHFHDGJGOGFHDHDGFHDCAGBGOGECAGDGPGOHEHCGBGDHEGPHCHDCAHEGIGBHECAHHGPHCGLCAGBGOGECAGDGPGPHCGEGJGOGBHEGFCAGDGMGPHDGFGMHJCAHEGPGHGFHEGIGFHCCAHEGPCAGNGBGOHFGGGBGDHEHFHCGFCMCAHEHCGBGOHDHAGPHCHECMCAGEGJHDHEHCGJGCHFHEGFCMCAGBGOGECAHDGFGMGMCAHCGFHEGBGJGMCAGHGPGPGEHDCO",
+      "EJGOHEGFHCGOGFHECAGPGGCAFEGIGJGOGHHDCACIEJGPFECJCAGJHDCAHEGIGFCAGDGPGOGDGFHAHECAGPGGCAGHGFHEHEGJGOGHCAGPGCGKGFGDHEHDCAHDHFGDGICAGBHDCAGDGBHCHDCAGPHCCAGIGPHFHDGFGIGPGMGECAGBHAHAGMGJGBGOGDGFHDCAHEGPCACHHEGBGMGLCHCAHEGPCAGFGBGDGICAGPHEGIGFHCCOCA",
+      "EOGJGDGIGFCAHCGFHEGBGJGMGJGOGHCAGJHDCAHEGIGFCAHAHCGBGDHEGJGDGFCAGPGGCAHDGFGMGMGJGOGHCAGPGOGMHJCAHEGPCAGBCAHDHAGFGDGJGGGJGDCAGNGBHCGLGFHECAHDGFGHGNGFGOHECOCAEJGOCAGPHEGIGFHCCAHHGPHCGEHDCMCAGJGGCAHJGPHFCHHCGFCAGBCAGOGJGDGIGFCAHCGFHEGBGJGMGFHCCMCAHJGPHFCAHDHAGFGDGJGBGMGJHKGFCAGJGOCAGBCAHAGBHCHEGJGDHFGMGBHCCAHEHJHAGFCAGPGGCAHAHCGPGEHFGDHECACIGPHCCAHDGPGNGFHEGJGNGFHDCAGBCAGGGFHHCAGDGMGPHDGFGMHJCAHCGFGMGBHEGFGECAGPGOGFHDCJCO",
+      "FAHCGPGEHFGDHECAGMGJGGGFCAGDHJGDGMGFCAGJHDCAHEGIGFCAHDGFHCGJGFHDCAGPGGCAHDHEGBGHGFHDCAHEGIGBHECAGFGBGDGICAGDGPGNGNGFHCGDGJGBGMCAHAHCGPGEHFGDHECAGHGPGFHDCAHEGIHCGPHFGHGICAHHGIGFGOCAGJHECAGIGJHEHDCAHEGIGFCAGNGBHCGLGFHECO",
+      "FAGPGJGOHECAGPGGCAHDGBGMGFCACIFAEPFDCJCAHDHJHDHEGFGNCAGGHFGOGDHEGJGPGOHDCAGBHDCAGBCAGDGBHDGICAHCGFGHGJHDHEGFHCCAGPHCCAHEGJGMGMCAHDHJHDHEGFGNCAHEGIGBHECAGMGFHEHDCAHCGFHEGBGJGMGFHCHDCAHCGJGOGHCAHFHACAHDGBGMGFHDCAGBGOGECAGLGFGFHACAGBCAHCGFGDGPHCGECAGPGGCAHEGIGPHDGFCAHEHCGBGOHDGBGDHEGJGPGOHDCAGJGOCAHEGIGFGJHCCAHDHEGPHCGFHDCO",
+      "FAHCGJHGGBHEGFCAGMGBGCGFGMCAGCHCGBGOGEHDCAGBHCGFCAGPHHGOGFGECAGOGPHECAGCHJCAGBCAGNGBGOHFGGGBGDHEHFHCGFHCCMCAGCHFHECAGCHJCAGBCAHCGFHEGBGJGMGFHCCAGPHCCAHDHFHAHAGMGJGFHCCO",
+      "FDGFGMGGCAHDGFHCHGGFCAGNGFGBGOHDCAGMGFHEHEGJGOGHCAGDHFHDHEGPGNGFHCHDCAHDGFGMGFGDHECAGBGOGECAHAGBHJCAGGGPHCCAGHGPGPGEHDCAHEGIGFGNHDGFGMHGGFHDCMCAHHGJHEGIGPHFHECAHCGFHBHFGJHCGJGOGHCAHEGIGFCAGBHDHDGJHDHEGBGOGDGFCAGPGGCAGBCAGMGJHGGFCAHDHEGBGGGGCAGNGFGNGCGFHCCO",
+      "FFGOGJGGGJGFGECAGCHCGBGOGECAGFHIHAGFHCGJGFGOGDGFCAGJHDCAGBGMGMCAGBGCGPHFHECAGFHDHEGBGCGMGJHDGIGJGOGHCAGBCAGDGPGOHDGJHDHEGFGOHECAGCHCGBGOGECAGPHCCAGJGEGFGOHEGJHEHJCAHEGIHCGPHFGHGIGPHFHECAGNHFGMHEGJHAGMGFCAGDGIGBGOGOGFGMHDCAGPHCCAHAGMGBHEGGGPHCGNHDCMCAGJGOGDGMHFGEGJGOGHCAGCHCGJGDGLCNGBGOGECNGNGPHCHEGBHCCMCAGFGDGPGNGNGFHCGDGFCMCAGPHCCAGNGPGCGJGMGFCO",
+      "EBCAHAGIHJHDGJGDGBGMCAGMGPGDGBHEGJGPGOCAGGGPHCCAHEGIGFCAGEGJHDHAGMGBHJCAGBGOGECAHDGBGMGFCAGPGGCAHAHCGPGEHFGDHEHDCO",
+      "FEGIGFCAGBGHGFCNGPGMGECAHBHFGFHDHEGJGPGOCAGGGPHCCAGNGPHDHECAGCHFHDGJGOGFHDHDCAGPHHGOGFHCHDCAGJHDCAGIGPHHCAHEGPCAHCGFGEHFGDGFCAGFHIHAGFGOHDGFHDCO",
+      "EDGPGOHDHFGNGFHCCAHAGBGDGLGBGHGFGECAGHGPGPGECMCAGPGGHEGFGOCAGBGCGCHCGFHGGJGBHEGFGECAHEGPCAEDFAEHCMCAGBHCGFCAGJHEGFGNHDCAHEGIGBHECAGBHCGFCAHFHDGFGECAGEGBGJGMHJCAGCHJCAHEGIGFCAGBHGGFHCGBGHGFCAGDGPGOHDHFGNGFHCCO",
+      "FCGFHEGBGJGMCAGDGPGOHGGFHCHDGJGPGOCAHCGBHEGFHDCAGNGFGBHDHFHCGFCAHEGIGFCAHAGFHCGDGFGOHEGBGHGFCAGPGGCAHGGJHDGJHEGPHCHDCAHEGIGBHECAGNGBGLGFCAGBCAHAHFHCGDGIGBHDGFCOCAFGGJHDGJHEGPHCHDCAGNGBHJCAGJGOGDGMHFGEGFCAHDGIGPHAHAGFHCHDCAHEGIGBHECAHGGJHDGJHECAGBCAHDHEGPHCGFCAGPHCCAGBCAHHGFGCCAHDGJHEGFCO",
+      "FEGIGFCAGEGFHAHEGICAGPGGCAGBHDHDGPHCHEGNGFGOHECAGJHDCAHEGIGFCAGBGNGPHFGOHECAGPGGCAGFGBGDGICAGJHEGFGNCAGPHCCAGEGJGGGGGFHCGFGOHECAHDHEHJGMGFHDCAGPGGCAGBCAHAHCGPGEHFGDHECAHEGIGBHECAGBCAHCGFHEGBGJGMGFHCCAHDHEGPGDGLHDCO",
+      "EHHCGPHDHDCAGNGBHCGHGJGOCAGJHDCAHEGPHEGBGMCAHDGBGMGFHDCAHCGFHGGFGOHFGFCAGNGJGOHFHDCAHEGIGFCAGDGPHDHECAGPGGCAGHGPGPGEHDCAHDGPGMGECMCAGFHIHAHCGFHDHDGFGECAGBHDCAGBCAHAGFHCGDGFGOHEGBGHGFCAGPGGCAHEGPHEGBGMCAHDGBGMGFHDCAHCGFHGGFGOHFGFCO",
+      "EIGBHCGEGMGJGOGFHDCAGBGOGECAHDGPGGHEGMGJGOGFHDCACIGPHCCAGIGBHCGECAGHGPGPGEHDCAGBGOGECAHDGPGGHECAGHGPGPGEHDCJCAGBHCGFCAHEHHGPCAGNGBGKGPHCCAGLGJGOGEHDCAGPGGCAHCGFHEGBGJGMCAGJGOHGGFGOHEGPHCHJCOCAFDGPGGHECAGHGPGPGEHDCAGBHCGFCAGJHEGFGNHDCAHEGIGBHECAGBHCGFCAGMGJHEGFHCGBGMGMHJCAHDGPGGHECMCAHDHFGDGICAGBHDCAGDGMGPHEGIGJGOGHCOCAEIGBHCGECAGHGPGPGEHDCAGBHCGFCAGOGPGOCNHAGFHCHDGPGOGBGMCAGJHEGFGNHDCAHDHFGDGICAGBHDCAGFGMGFGDHEHCGPGOGJGDHDCMCAGBHAHAGMGJGBGOGDGFHDCAGBGOGECAHDHAGPHCHEGJGOGHCAGFHBHFGJHAGNGFGOHECO",
+      "ENGJGOGJGNHFGNCAGBGEHGGFHCHEGJHDGFGECAHAHCGJGDGFCAGJHDCAGBCAHDHFHAHAGMGJGFHCCHHDCAHAGPGMGJGDHJCAHEGIGBHECAGEGPGFHDGOCHHECAHAGFHCGNGJHECAHCGFHEGBGJGMGFHCHDCAHEGPCAGBGEHGGFHCHEGJHDGFCAGCGFGMGPHHCAGBCAHDHAGFGDGJGGGJGDCAGBGNGPHFGOHECMCAGBGMHEGIGPHFGHGICAHEGIGFHJCAGDGBGOCAHDGFGMGMCAGJHEGFGNHDCAGGGPHCCAGMGFHDHDCAHEGIGBGOCAHEGIGJHDCAHAHCGJGDGFCO",
+      "ENGPGOHEGIGMHJCAHDGBGMGFHDCAGJGOGEGFHICAGJHDCAGBCAGNGFGBHDHFHCGFCAGPGGCAGHHCGPHHHEGICAGPHCCAGMGPHDHDCMCAHEGIGBHECAGDGPGNHAGBHCGFHDCAGNGPGOHEGIGMHJCAHDGBGMGFHDCAHEGPCAGBGOCAGBHGGFHCGBGHGFCAGPGGCAGNGPGOHEGIGMHJCAHDGBGMGFHDCO",
+      "EPHCGEGFHCCAGMGFGBGECAHEGJGNGFCAGJHDCAHEGIGFCAHAGFHCGJGPGECAGCGFHEHHGFGFGOCAHHGIGFGOCAHEGIGFCAHCGFHEGBGJGMGFHCCAHAGMGBGDGFHDCAGBGOCAGPHCGEGFHCCAHHGJHEGICAGBCAHDHFHAHAGMGJGFHCCAGBGOGECAHHGIGFGOCAHEGIGFCAHAHCGPGEHFGDHECAGJHDCAGEGFGMGJHGGFHCGFGECAHEGPCAHEGIGFGJHCCAHDHEGPHCGFCO",
+      "EBCAHAGMGBGOGPGHHCGBGNCAGJHDCAGBCAHGGJHEGBGMCAHAGBHCHECAGPGGCAGNGFHCGDGIGBGOGEGJHDGJGOGHCAGBGOGECAHCGFHEGBGJGMCAHDHAGBGDGFCAHAGMGBGOGOGJGOGHCOCAEJHECAGEGJGBGHHCGBGNHDCAGIGPHHCAGBGOGECAHHGIGFHCGFCAHAHCGPGEHFGDHEHDCAHDGIGPHFGMGECAGCGFCAGEGJHDHAGMGBHJGFGECAHEGPCAGBGGGGGFGDHECAHAHFHCGDGIGBHDGJGOGHCAGEGFGDGJHDGJGPGOHDCO",
+      "FAGBGDGLHDCAGBHCGFCAGIGPHHCAGDGFHCHEGBGJGOCAGJHEGFGNHDCAGBHCGFCAGCHFGOGEGMGFGECAHEGPGHGFHEGIGFHCCAGGGPHCCAGPHCGEGFHCGJGOGHCMCAHHGIGJGDGICAGJHDCAGJGOGEGFHAGFGOGEGFGOHECAGGHCGPGNCAGIGPHHCAHEGIGFHJCAGBHCGFCAHDGPGMGECO",
+      "EDGPGHGOGJHCGBCAGJHDCAHAHCGPHFGECAHEGPCAGIGBHGGFCAHAHCGPHGGJGEGFGECAGBCAHCGFHEGBGJGMCAHGGFHCHDGJGPGOCAGPGGCAHEGIGJHDCAGHGBGNGFCO",
       ];
     var RandIndex = [
         [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
@@ -14226,6 +14224,54 @@
       var i = d % La.length;
       return RandIndex[w][i] % La.length;
     }
+    var Cha = "a".charCodeAt();
+    var ChA = "A".charCodeAt();
+    var Ch0 = "0".charCodeAt();
+    function Det(a) {
+      var x = 0;
+      if (a >= ChA) { x = a-ChA+10; }
+      else { x = a-Ch0; }
+      return x;
+    }
+    function De1(a) {
+      var x = Det(a);
+      var a2 = ((x&16)/2)+((x&8)/4)+((x&4)/4)+((x&2)*2)+((x&1)*16);
+      return String.fromCharCode(a2+Cha);
+    }
+    function De2(a,b) {
+      var x = Det(a);
+      var y = Det(b);
+      var a2 = ((x&16)/2)+((y&8)/4)+((x&4)/4)+((y&2)*2)+((x&1)*16);
+      var b2 = ((y&16)/2)+((x&8)/4)+((y&4)/4)+((x&2)*2)+((y&1)*16);
+      return String.fromCharCode(a2+Cha,b2+Cha);
+    }
+    function Des(s) {
+      var r = "";
+      for (var i = 0; i < s.length;) {
+        var c1 = s.charCodeAt(i);
+        i++;
+        if (i < s.length) {
+          var c2 = s.charCodeAt(i);
+          i++;
+          r += De2(c1,c2);
+        } else {
+          r += De1(c1);
+        }
+      }
+      return r;
+    }
+    function Dess(s) {
+      var r = "";
+      for (var i = 0; i < s.length; ) {
+        var a = s.charCodeAt(i);
+        i++;
+        var b = s.charCodeAt(i);
+        i++;
+        var x = ((a-ChA)<<4)+(b-ChA);
+        r += String.fromCharCode(x);
+      }
+      return r;
+    }
     function Da(e) {
       /*** debug ***
       var t = new Date().setHours(0, 0, 0, 0) - new Date(Ha).setHours(0, 0, 0, 0);
@@ -14236,7 +14282,7 @@
           console.log("day offset: " + dOffset + ", index " + dayOffsetToIndex(dOffset));
       } ***/
       var index = dayOffsetToIndex(Ga(e))
-      return La[index];
+      return Des(La[index]);
     }
     var Ba = "abcdefghijklmnopqrstuvwxyz",
       Fa = [].concat(g(Ba.split("").slice(13)), g(Ba.split("").slice(0, 13)));
@@ -14382,7 +14428,7 @@
                   var e,
                     a = this.$board.querySelectorAll("game-row")[this.rowIndex],
                     s = this.boardState[this.rowIndex];
-                  if (((e = s), !Ta.includes(e) && !La.includes(e)))
+                  if (((e = s), !Ta.includes(e) && e != this.solution))
                     return (
                       a.setAttribute("invalid", ""),
                       void this.addToast("Not in word list")
@@ -15246,7 +15292,7 @@
 
                 if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL")) {
                   var index = dayOffsetToIndex(e.gameApp.dayOffset);
-                  var funFact = funFacts[index];
+                  var funFact = Dess(FuFa[index]);
                   if (funFact != "") {
                     this.shadowRoot.appendChild(FFs.content.cloneNode(!0));
 
