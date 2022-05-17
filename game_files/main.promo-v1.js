@@ -1357,6 +1357,8 @@
       debug_mode: !1,
     });
     var Ta = [    /* DICTIONARY WORDS*/
+        "great",
+        "store",
         "click",
         "group",
         "gimli",
